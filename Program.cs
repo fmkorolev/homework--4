@@ -68,7 +68,7 @@ NumberOfEvenNumbers(myarray);
      if (d[i] < min) min = d[i];
  }
            
-     for (int i = 0; i < d.Length; i++) Console.Write(" "+d[i]);//выводим массив
+     for (int i = 0; i < d.Length; i++) Console.Write(" "+d[i]);
      Console.WriteLine();
     Console.WriteLine("max:  " + max);
     Console.WriteLine("min  " +min);
